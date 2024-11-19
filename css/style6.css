@@ -1,0 +1,21 @@
+article img {
+    float: right;
+    overflow: auto;
+    padding: 10px;
+    background-color: #F3F3F3;
+}
+
+h1 {
+    margin: 30px; 
+    padding: 10px; 
+}
+
+p {
+    margin: 30px; 
+    padding: 10px;
+    margin-right: 150px;
+}
+
+article {
+    max-width: 1400px;
+}

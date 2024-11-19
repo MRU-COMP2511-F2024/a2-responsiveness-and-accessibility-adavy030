@@ -1,0 +1,37 @@
+article{
+    margin: 20px;
+    margin-right: 30px;
+    margin-left: 50px;
+    padding: 10px;
+    float: left;
+    overflow: auto;
+}
+
+h3 {
+    padding-right: 40%;
+}
+
+article>section {
+    background-color: #F3F3F3;
+}
+
+ul {
+    line-height: 30px;
+}
+
+img[title="Leela Jacobs Strategy"]{
+    float: right;
+    padding: 5px;
+    margin-top: -15px;
+}
+
+h2 {
+    line-height: 28px;
+}
+
+#post, #story {
+    float: left;
+    padding: 15px;
+    font-size: smaller;
+    font-weight: bolder;
+}

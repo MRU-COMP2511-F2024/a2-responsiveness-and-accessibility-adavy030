@@ -1,0 +1,38 @@
+article{
+    margin: 20px;
+    padding: 10px;
+    overflow: auto
+}
+
+h3 {
+    padding-right: 40%;
+}
+
+#description{
+    background-color: #F3F3F3;
+}
+
+ul {
+    line-height: 30px;
+}
+
+#cover {
+    float: right;
+    padding: 5px;
+    margin-top: -20px;
+    overflow: auto;
+}
+
+h2 {
+    line-height: 28px;
+}
+
+#images {
+    position:relative;
+    bottom: 20px;
+}
+
+#overview {
+    color: #515151;
+    text-decoration: none;
+}

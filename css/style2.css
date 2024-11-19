@@ -1,0 +1,34 @@
+img[alt="Sample"] {
+    margin: 0px;
+    padding: 15px;
+    background-color: #F3F3F3;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    font-weight: bolder;
+    color: #FFB9CB;
+    font-size: 18pt;
+    text-align: left;
+    margin: 30px;
+    padding: 0px;
+}
+
+tr:nth-child(even) {
+    background-color: #F5F5F5; 
+}
+
+tr:nth-child(odd) {
+    background-color: #FFFFFF; 
+}
+
+td{
+    padding:0px;
+    margin: 0px;
+}
+
+figure {
+    margin: 8px; 
+    padding: 0px;
+}
