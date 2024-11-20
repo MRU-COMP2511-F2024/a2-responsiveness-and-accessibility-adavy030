@@ -1,3 +1,4 @@
 @media (min-width: 591px) and (max-width: 790px) {
     body{ grid-template-columns: repeat(2, 1fr); }
+    table { grid-template-columns: repeat(2, 1fr); }
 }
