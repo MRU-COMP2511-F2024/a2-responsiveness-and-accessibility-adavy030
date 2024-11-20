@@ -57,7 +57,7 @@ figure {
 
 @media (min-width: 790px) {
     .items {display: grid;
-        column-gap: 5px;
+        column-gap: 15px;
         padding: 5px;
         grid-template-columns: repeat(3, 1fr); }
 
