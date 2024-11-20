@@ -32,3 +32,26 @@ figure {
     margin: 8px; 
     padding: 0px;
 }
+
+@media (max-width: 590px){
+    .items {display: grid;
+        column-gap: 15px;
+        row-gap: 15px;
+        padding: 5px;
+        grid-template-columns: repeat(1, 1fr); }
+}
+
+@media (min-width: 591px) and (max-width: 790px) {
+    .items {display: grid;
+        column-gap: 15px;
+        row-gap: 15px;
+        padding: 5px;
+        grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 791px) {
+    .items {display: grid;
+        column-gap: 20px;
+        padding: 5px;
+        grid-template-columns: repeat(3, 1fr); }
+}
