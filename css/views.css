@@ -1,11 +1,9 @@
 @media (max-width: 590px){
-    body {display: grid;
-    grid-template-columns: 1fr 1fr;}
+
     }
 
 @media (min-width: 591px) and (max-width: 790px) {
-    article {display: grid;}
-    table {grid-template-columns: repeat(2, 1fr);}
+    table {column-span: 2;}
 }
 
 @media (min-width: 791px) {
