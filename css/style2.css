@@ -41,7 +41,7 @@ figure {
         grid-template-columns: repeat(1, 1fr); }
     
     img[alt="Sample"] {
-        height: 280px;}
+        height: 200px;}
 }
 
 @media (min-width: 590px) and (max-width: 790px) {
