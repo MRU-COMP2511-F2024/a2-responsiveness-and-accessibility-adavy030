@@ -1,4 +1,0 @@
-@media (min-width: 591px) and (max-width: 790px) {
-    body {display: grid;
-    grid-template-columns: repeat(2, 1fr);}
-}
