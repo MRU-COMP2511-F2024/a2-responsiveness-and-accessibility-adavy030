@@ -21,7 +21,6 @@ tagline {
 }
 
 header {
-    color: #515151;
     overflow: hidden;
 }
 
@@ -75,4 +74,16 @@ a:hover {
 
 #active{
     color: #FFB9CB;
+}
+
+@media (max-width: 590px) {
+
+}
+
+@media (min-width: 590px) and (max-width: 790px) {
+    
+}
+
+@media (min-width: 790px) {
+
 }

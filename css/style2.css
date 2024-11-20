@@ -5,16 +5,6 @@ img[alt="Sample"] {
     display: block;
 }
 
-table {
-    border-collapse: collapse;
-    font-weight: bolder;
-    color: #FFB9CB;
-    font-size: 18pt;
-    text-align: left;
-    margin: 30px;
-    padding: 0px;
-}
-
 tr:nth-child(even) {
     background-color: #F5F5F5; 
 }
