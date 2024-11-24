@@ -26,8 +26,6 @@ header {
 
 header img {
     float: left;
-    padding: 20px;
-    margin: -60px;
 }
 
 header h1 {
@@ -48,16 +46,11 @@ nav ul{
     padding: 0px;
 }
 
-nav li {
-    float: right;
-    margin-left: 10px;
-}
 
 nav li a {
     display:block;
     color: #515151;
     text-align: right;
-    padding: 20px;
     text-decoration: none;
 }
 
@@ -78,30 +71,36 @@ a:hover {
 
 @media (max-width: 590px) {
     .heading img {
-        height: 60px;}
+        padding: 5px;
+        margin: -30px;
+        height: 90px;}
     .heading {
-        margin: 50px;
+        margin-top: 40px;
+        margin-right: -40px;
         font-size: 5px;
         padding: 5px;
     }
     .heading tagline {
         font-size: 4px;
     }
-    .navigation ul{
+    nav ul{
         font-size: 5px;
-    }
-    }
-    body{
-        width: 75%;
     }
 
-    footer {
-        font-size: 5px;
-        width:100%;
+    nav li a {
+        padding: 5px;
     }
+
+    body{
+        margin: 20px;
+    }
+}
+
 
 @media (min-width: 590px) and (max-width: 790px)  {
     .heading img {
+        padding: 20px;
+        margin: -60px;
         height: 130px;}
     .heading {
         margin: 20px;
@@ -118,16 +117,34 @@ a:hover {
         margin-top: -12px;
     }
 
+    nav li a {
+        padding: 20px;
+    }
+    nav li {
+        float: right;
+        margin-left: 10px;
+    }
+
     footer {
         font-size: 10px;
-        width: 100%;
     }
-    
+
 }
 
 @media (min-width: 790px) {
     .heading img {
-        height: 150px;}
+        padding: 20px;
+        margin: -60px;
+        height: 150px;
+    }
 
-
+    nav li a {
+        padding: 20px;
+    }
+    nav li {
+        float: right;
+        margin-left: 10px;
+    }
+    footer {
+        font-size: 16px;}
 }
