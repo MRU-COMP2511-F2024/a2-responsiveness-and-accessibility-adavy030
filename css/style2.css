@@ -34,12 +34,12 @@ figure {
         height: 200px;}
 }
 
-@media (min-width: 590px) and (max-width: 790px) {
+@media (min-width: 591px) and (max-width: 790px) {
     .items {display: grid;
         column-gap: 15px;
         row-gap: 15px;
         padding: 5px;
-        margin: 5px;
+        margin: 10px;
         grid-template-columns: repeat(2, 1fr); }
     
     img[alt="Sample"] {
