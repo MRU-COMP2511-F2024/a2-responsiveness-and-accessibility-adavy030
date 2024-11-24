@@ -16,8 +16,8 @@ h3 {
 
 tagline {
     font-weight: lighter;
-    font-size: 12pt;
     color: #aaa;
+    font-size: 12pt;
 }
 
 header {
@@ -81,9 +81,27 @@ a:hover {
 }
 
 @media (min-width: 590px) and (max-width: 790px) {
+    .heading img {
+        height: 130px;}
+    .heading {
+        margin: 20px;
+        font-size: 10px;
+        padding: 5px;
+    }
+    .heading tagline {
+        font-size: 8px;
+    }
+    .navigation ul{
+        font-size: 10px;
+        margin: 5px;
+        margin-bottom: 15px;
+        margin-top: -12px;
+    }
+    
     
 }
 
 @media (min-width: 790px) {
-
+    .heading img {
+        height: 180px;}
 }
