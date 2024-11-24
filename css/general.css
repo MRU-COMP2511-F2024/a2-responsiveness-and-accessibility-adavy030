@@ -128,7 +128,7 @@ a:hover {
     
 }
 
-@media (max-width: 790px) {
+@media (min-width: 790px) {
     .heading img {
         height: 150px;}
 

@@ -31,7 +31,7 @@ figure {
         grid-template-columns: repeat(1, 1fr); }
     
     img[alt="Sample"] {
-        height: 200px;}
+        height: 100px;}
 }
 
 @media (min-width: 590px) and (max-width: 790px) {
@@ -43,15 +43,15 @@ figure {
         grid-template-columns: repeat(2, 1fr); }
     
     img[alt="Sample"] {
-        height: 80px;}
+        height: 200px;}
 }
 
-@media (max-width: 790px) {
+@media (min-width: 790px) {
     .items {display: grid;
         column-gap: 15px;
         padding: 5px;
         grid-template-columns: repeat(3, 1fr); }
 
     img[alt="Sample"] {
-        height: 200px;}
+        height: 300px;}
     }
