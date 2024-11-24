@@ -77,10 +77,33 @@ a:hover {
 }
 
 @media (max-width: 590px) {
+    .heading img {
+        height: 90px;}
+    .heading {
+        margin: 10px;
+        font-size: 5px;
+        padding: 5px;
+    }
+    .heading tagline {
+        font-size: 4px;
+    }
+    .navigation ul{
+        font-size: 5px;
+    }
+    .navigation{
+        width: 50%;
+    }
+    body{
+        margin:10px;
+    }
 
+    footer {
+        font-size: 5px;
+        width:50%;
+    }
 }
 
-@media (min-width: 590px) and (max-width: 790px) {
+@media (min-width: 591px) and (max-width: 790px) {
     .heading img {
         height: 130px;}
     .heading {
@@ -91,17 +114,21 @@ a:hover {
     .heading tagline {
         font-size: 8px;
     }
+
     .navigation ul{
         font-size: 10px;
-        margin: 5px;
         margin-bottom: 15px;
         margin-top: -12px;
     }
-    
+
+    footer {
+        font-size: 10px;
+        width: 100%;
+    }
     
 }
 
-@media (min-width: 790px) {
+@media (min-width: 791px) {
     .heading img {
         height: 180px;}
 }
