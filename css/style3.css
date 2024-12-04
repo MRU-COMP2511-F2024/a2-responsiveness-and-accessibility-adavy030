@@ -1,11 +1,4 @@
-article{
-    margin: 20px;
-    margin-right: 30px;
-    margin-left: 50px;
-    padding: 10px;
-    float: left;
-    overflow: auto;
-}
+
 
 h3 {
     padding-right: 40%;
@@ -15,9 +8,6 @@ article>section {
     background-color: #F3F3F3;
 }
 
-ul {
-    line-height: 30px;
-}
 
 img[title="Leela Jacobs Strategy"]{
     float: right;
@@ -25,26 +15,88 @@ img[title="Leela Jacobs Strategy"]{
     margin-top: -15px;
 }
 
-h2 {
-    line-height: 28px;
-}
 
 #post, #story {
-    float: left;
-    padding: 15px;
+    padding: 10px;
     font-size: smaller;
     font-weight: bolder;
 }
 
 
 @media (max-width: 590px){
- 
+    article {
+        margin: 10px;
+    }
+
+    article h2 {
+        a {
+            font-size: 8pt;
+            line-height: 1px;
+        }
+    }
+
+    h2, h3 {
+        font-size: 8pt;
+        line-height: 15px;
+    }
+
+
+    section {
+        font-size: 5pt;
+        width:55%;
+        margin: 5px;
+    }
+    
+    ul {
+        line-height: 15px;
+    }
+    
+    img[title="Leela Jacobs Strategy"]{
+        display: none;
+    }
+
+    img[alt="instagram sample"] {
+        height: 200px;
+    }
+
+    #post, #story {
+        float: left;
+    }
 }
 
 @media (min-width: 590px) and (max-width: 790px) {
-  
+    img[title="Leela Jacobs Strategy"]{
+        height:150px;
+    }
 }
 
 @media (min-width: 790px) {
-
+    img[title="Leela Jacobs Strategy"]{
+        height:250px;
     }
+
+    img[alt="instagram sample"] {
+        height: 300px;
+    }
+
+    #post, #story {
+        float:right;
+    }
+
+    ul {
+        line-height: 30px;
+    }
+    
+    article{
+        margin: 20px;
+        margin-right: 30px;
+        margin-left: 50px;
+        padding: 10px;
+        float: left;
+        overflow: auto;
+    }
+
+    h2 {
+        line-height: 28px;
+    }
+}
