@@ -35,3 +35,16 @@ h2 {
     font-size: smaller;
     font-weight: bolder;
 }
+
+
+@media (max-width: 590px){
+ 
+}
+
+@media (min-width: 590px) and (max-width: 790px) {
+  
+}
+
+@media (min-width: 790px) {
+
+    }
