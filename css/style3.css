@@ -43,14 +43,18 @@ img[title="Leela Jacobs Strategy"]{
     }
     
     h3 {
-        font-size: 7pt;
-        width: 100%;
+        font-size: 8pt;
+        width: 70%;
     }
 
 
     section {
-        font-size: 5pt;
+        font-size: 7pt;
         width: 100%;
+    }
+
+    p {
+        line-height: 12px;
     }
     
     ul {
