@@ -69,13 +69,13 @@ a:hover {
 
 @media (max-width: 590px) {
     .heading img {
-        padding: 15px;
+        padding: 10px;
+        padding-right: 0px;
         margin: -30px;
         height: 80px;}
     .heading {
         margin-top: 20px;
         font-size: 5px;
-        padding: 5px;
     }
     .heading tagline {
         font-size: 5px;
