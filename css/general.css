@@ -122,13 +122,10 @@ a:hover {
         display: block;
     }
 
-    footer nav{
+    footer{
         display: none;
     }
 
-    footer {
-        font-size: 5pt;
-    }
 }
 
 
@@ -139,11 +136,11 @@ a:hover {
         height: 130px;}
     .heading {
         margin: 20px;
-        font-size: 10px;
+        font-size: 8pt;
         padding: 5px;
     }
     .heading tagline {
-        font-size: 8pt;
+        font-size: 7pt;
     }
 
     .navigation {
@@ -188,7 +185,8 @@ a:hover {
     }
 
     footer {
-        font-size: 10px;
+        font-size: 8pt;
+        width: 95%
     }
 
     footer nav{

@@ -28,10 +28,12 @@ figure {
         column-gap: 15px;
         row-gap: 15px;
         padding: 5px;
-        grid-template-columns: repeat(1, 1fr); }
+        grid-template-columns: repeat(1, 1fr);
+    }
     
     img[alt="Sample"] {
-        height: 250px;}
+        height: 250px;
+    }
 }
 
 @media (min-width: 590px) and (max-width: 790px) {
@@ -40,7 +42,6 @@ figure {
         row-gap: 15px;
         padding: 5px;
         margin: 10px;
-        
         grid-template-columns: repeat(2, 1fr); }
     
     img[alt="Sample"] {
