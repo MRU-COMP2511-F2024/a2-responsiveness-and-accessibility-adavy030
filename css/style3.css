@@ -24,7 +24,7 @@ img[title="Leela Jacobs Strategy"]{
 
 @media (max-width: 590px){
     body{
-        
+        width: 80%;
     }
     article {
         margin: 10px;
