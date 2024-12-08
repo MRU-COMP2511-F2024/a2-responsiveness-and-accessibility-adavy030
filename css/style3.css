@@ -62,7 +62,10 @@ img[title="Leela Jacobs Strategy"]{
     }
     
     img[title="Leela Jacobs Strategy"]{
-        display: none;
+        height: 150px;
+        float: none;
+        margin-top: 10px;
+        margin-bottom: -20px;
     }
 
     img[alt="instagram sample"] {
