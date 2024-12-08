@@ -16,12 +16,7 @@ ul {
     line-height: 30px;
 }
 
-#cover {
-    float: right;
-    padding: 5px;
-    margin-top: -20px;
-    overflow: auto;
-}
+
 
 h2 {
     line-height: 28px;
@@ -35,4 +30,91 @@ h2 {
 #overview {
     color: #515151;
     text-decoration: none;
+}
+
+@media (max-width: 590px){
+    body {
+        width: 80%;
+    }
+
+    article {
+        margin-top: -15px;
+        margin-left: 5px;
+    }
+
+    article h2 a {
+        font-size: 8pt;
+        line-height: 1px;
+    }
+
+    h2{
+        font-size: 8pt;
+        line-height: 15px;
+    }
+    
+    h3 {
+        font-size: 7pt;
+        width: 70%;
+    }
+
+    p {
+        padding: 8px;
+        font-size: 7pt;
+    }
+
+    ul {
+        padding: 25px;
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+
+    li {
+        line-height: 15px;
+        font-size: 7pt;
+    }
+
+    img[alt="scaling plan"] {
+        height: 90px;
+    }
+    
+}
+
+@media (min-width: 590px) and (max-width: 790px) {
+    #cover {
+        float: right;
+        padding: 5px;
+        margin-top: -20px;
+        overflow: auto;
+    }
+}
+
+@media (min-width: 790px) {
+    img[alt="scaling plan"]{
+        height: 200px;
+    }
+
+    #cover {
+        float: right;
+        padding: 5px;
+        margin-top: -20px;
+        overflow: auto;
+    }
+
+    #description {
+        margin-bottom: 50px;
+    }
+    .carousel img{
+        height:400px;
+        object-fit: cover;
+        padding: 5px;
+        
+    }
+
+    .carousel {
+        float: left;
+    }
+
+    p {
+        padding: 10px;
+    }
 }
