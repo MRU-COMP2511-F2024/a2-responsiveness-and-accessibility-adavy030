@@ -81,6 +81,18 @@ ul {
     .carousel {
         align-items: center;
     }
+
+    img[alt="multipage layout document"]{
+       display: none;
+        
+    }
+    #imagesmru {
+        margin-top: -50px;
+    }
+
+    #imagesmru img{
+        height: 250px;
+    }
 }
 
 @media (min-width: 590px) and (max-width: 790px) {
@@ -128,6 +140,14 @@ ul {
         float: left;
     }
 
+    img[alt="multipage layout document"]{
+        height:180px;
+    }
+
+    img[title="MRU Viewbook"] {
+        height: 400px;
+    }
+
 }
 
 @media (min-width: 790px) {
@@ -158,5 +178,13 @@ ul {
 
     p {
         padding: 10px;
+    }
+
+    img[alt="multipage layout document"]{
+        height:230px;
+    }
+
+    img[title="MRU Viewbook"] {
+        height: 600px;
     }
 }
