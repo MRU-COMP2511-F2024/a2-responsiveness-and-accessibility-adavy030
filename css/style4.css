@@ -1,7 +1,7 @@
 article{
     margin: 20px;
     padding: 10px;
-    overflow: auto
+    overflow: auto;
 }
 
 h3 {
@@ -16,16 +16,10 @@ ul {
     line-height: 30px;
 }
 
-
-
-h2 {
-    line-height: 28px;
+*, ::after, ::before {
+    box-sizing: content-box;
 }
 
-#images {
-    position:relative;
-    bottom: 20px;
-}
 
 #overview {
     color: #515151;
@@ -33,9 +27,7 @@ h2 {
 }
 
 @media (max-width: 590px){
-    body {
-        width: 80%;
-    }
+    
 
     article {
         margin-top: -15px;
@@ -54,9 +46,12 @@ h2 {
     
     h3 {
         font-size: 7pt;
-        width: 70%;
+        width: 95%;
     }
 
+    section {
+        width: 100%;
+    }
     p {
         padding: 8px;
         font-size: 7pt;
@@ -65,7 +60,7 @@ h2 {
     ul {
         padding: 25px;
         margin-top: -20px;
-        margin-bottom: -20px;
+        margin-bottom: -30px;
     }
 
     li {
@@ -76,16 +71,62 @@ h2 {
     img[alt="scaling plan"] {
         height: 90px;
     }
-    
+    .carousel img{
+        height:200px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .carousel {
+        align-items: center;
+    }
 }
 
 @media (min-width: 590px) and (max-width: 790px) {
-    #cover {
-        float: right;
-        padding: 5px;
-        margin-top: -20px;
-        overflow: auto;
+    img[alt="scaling plan"] {
+        height: 150px;
+
     }
+
+    article h2 a {
+        font-size: 12pt;
+        line-height: 1px;
+    }
+
+    h2 a, h2{
+        font-size: 12pt;
+        line-height: 20px;
+    }
+    
+    h3 {
+        font-size: 10pt;
+        width: 100%;
+    }
+
+    section {
+        font-size: 10pt;
+        width: 95%;
+    }
+    
+    p {
+        padding: 8px;
+    }
+
+    li {
+        line-height: 25px;
+    }
+
+    .carousel img{
+        height:350px;
+        object-fit: cover;
+        padding: 5px;
+
+    }
+
+    .carousel {
+        float: left;
+    }
+
 }
 
 @media (min-width: 790px) {
@@ -107,7 +148,7 @@ h2 {
         height:400px;
         object-fit: cover;
         padding: 5px;
-        
+
     }
 
     .carousel {
