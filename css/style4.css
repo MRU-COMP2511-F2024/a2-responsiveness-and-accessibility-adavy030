@@ -51,16 +51,17 @@ ul {
 
     section {
         width: 100%;
+        font-size: 7pt;
     }
     p {
         padding: 8px;
-        font-size: 7pt;
     }
 
     ul {
         padding: 25px;
-        margin-top: -20px;
+        margin-top: -30px;
         margin-bottom: -30px;
+        width: 70%;
     }
 
     li {

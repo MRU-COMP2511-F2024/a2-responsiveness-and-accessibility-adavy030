@@ -59,6 +59,10 @@ footer{
     width: 100%;
 }
 
+hr {
+    width: 100%;
+}
+
 a:hover {
     background-color: #FDE7E7;
 }
