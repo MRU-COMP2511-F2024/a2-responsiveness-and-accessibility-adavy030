@@ -35,11 +35,6 @@ header h1 {
     color:#515151;
 }
 
-p::first-letter {
-    font-size: 18pt;
-    font-weight: bold;
-}
-
 nav ul{
     list-style-type: none;
     margin: 10px;
@@ -146,6 +141,11 @@ a:hover {
         float: left;
         font-size: 5pt;
     }
+
+    p::first-letter {
+        font-size: 12pt;
+        font-weight: bold;
+    }
 }
 
 
@@ -213,6 +213,11 @@ a:hover {
         display: none;
     }
 
+    p::first-letter {
+        font-size: 16pt;
+        font-weight: bold;
+    }
+
 }
 
 @media (min-width: 790px) {
@@ -231,5 +236,10 @@ a:hover {
     }
     footer{
         font-size: 12pt;
+    }
+
+    p::first-letter {
+        font-size: 18pt;
+        font-weight: bold;
     }
 }
