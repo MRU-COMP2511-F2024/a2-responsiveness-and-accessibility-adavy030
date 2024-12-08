@@ -122,10 +122,14 @@ a:hover {
         display: block;
     }
 
-    footer{
+    footer nav{
         display: none;
     }
 
+    footer {
+        float: left;
+        font-size: 5pt;
+    }
 }
 
 
