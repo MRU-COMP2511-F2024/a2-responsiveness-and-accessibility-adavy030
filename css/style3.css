@@ -145,8 +145,8 @@ img[title="Leela Jacobs Strategy"]{
         height: 300px;
     }
 
-    #post, #story {
-        float:right;
+    #story {
+        position: relative;
     }
 
     ul {

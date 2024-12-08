@@ -69,16 +69,23 @@ a:hover {
 
 @media (max-width: 590px) {
     .heading img {
-        padding: 10px;
-        padding-right: 0px;
-        margin: -30px;
-        height: 80px;}
-    .heading {
-        margin-top: 20px;
-        font-size: 5pt;
+        margin-right: -30px;
+        margin-left: -18px;
     }
     .heading tagline {
-        font-size: 5pt;
+        font-size: 4pt;
+    } 
+
+    .heading a {
+        margin-top: 15px;
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        text-align: left;
+        font-size: 5px;
     }
 
     body{
@@ -96,6 +103,10 @@ a:hover {
     .container {
         display: inline-block;
         cursor: pointer;
+        margin-left: 250px;
+        clear: both;
+        margin-top: -55px;
+        margin-bottom: 30px;
     }
           
     .bar1, .bar2, .bar3 {
