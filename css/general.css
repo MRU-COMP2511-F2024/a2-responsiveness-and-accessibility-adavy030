@@ -93,11 +93,12 @@ a:hover {
     .navigation {
         display: none;
         font-size: 5pt;
-        width: 100px;
+        width: 95px;
         position: absolute;
-        left: 220px;
+        left: 210px;
+        margin-top: -25px;
         background-color: #fff;
-        box-shadow: 0 4px 6px #ebebeb;
+        box-shadow: 0 4px 6px gray;
     }
     .container {
         display: inline-block;
