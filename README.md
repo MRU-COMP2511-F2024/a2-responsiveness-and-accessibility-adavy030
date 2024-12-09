@@ -9,4 +9,4 @@ The WAVE tool says that there is 1 error for missing language and 3 very low con
 
 I ended up having to change and relabel some content using div tags and applying class to better target specific code.
 
-These accessibility changes connect with the gestalt principles because it ensures consistent formatting no matter the device used. Previous to the accessibility changes, the content would get extremely distorted. It now also fits the images more
+These accessibility changes connect with the gestalt principles because it ensures consistent formatting no matter the device used. Previous to the accessibility changes, the content would get extremely distorted. It now also fits the images better.
