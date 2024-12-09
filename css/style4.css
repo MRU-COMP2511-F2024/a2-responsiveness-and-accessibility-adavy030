@@ -56,7 +56,7 @@ p ul {
     }
 
     img[alt="scaling plan"] {
-        height: 90px;
+        display: none;
     }
     .carousel img{
         height:200px;
