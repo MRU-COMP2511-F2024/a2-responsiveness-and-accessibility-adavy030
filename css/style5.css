@@ -7,7 +7,7 @@ fieldset{
 form{
     background-color: #F3F3F3;
     font-weight: lighter;
-    padding: 20px;
+    
 }
 
 ::placeholder{
@@ -63,7 +63,9 @@ input[type] {
 @media (max-width: 590px) {
 
     form {
-        margin-left: 10px;
+        margin-left: 15px;
+        padding: 15px;
+        width: 80%;
     }
     h2 {
         font-size: 8pt;
@@ -98,13 +100,46 @@ input[type] {
 }
 
 @media (min-width: 590px) and (max-width: 790px) {
+    form {
+        margin-left: 25px;
+        padding: 15px;
+        width: 80%;
+    }
+    h2 {
+        font-size: 10pt;
+        margin-left: 30px;
+    }
+    label {
+        font-size: 8pt;
+        line-height: 1.5px;
+    }
 
+    legend {
+        font-size: 10pt;
+    }
+    
+    fieldset{
+        font-size: 10pt;
+    }
+
+    fieldset tagline {
+        font-size: 8pt;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+        font-size: 10pt; /* Font size for inputs */
+    }
+    
+    input[type=submit], input[type=reset] {
+        font-size: 10pt;
+    }
 }
 
 @media (min-width: 790px) {
     form{
         margin: 30px;
         max-width: 2000px;
+        padding: 20px;
     }
 
     label {
